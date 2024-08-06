@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(0 96% 4%);
+}
+
+.resume {
+    display: flex;
+    max-width: 1400px;
+    margin: 30px auto;
+    background: #4791e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right {
+    padding: 20px;
+}
+
+.left {
+    width: 50%;
+    background:#09335f;
+    color :white;
+    border-radius: 10px 0 0 10px;
+}
+
+.left h2 {
+    margin-top: 40px;
+    border-bottom: 4px solid rgb(251, 249, 249);
+    padding-bottom: 30px;
+   
+}
+
+.languages h2, .contact h2, .CI h2, .ss h2{
+    color: #eaeaea;
+}
+.ss li{
+    font-size: 25px;
+    
+}
+.languages li{
+    font-size: 25px;
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right {
+    width: 80%;
+}
+h1{
+    font-family:'Libre Baskerville', serif;
+    font-size: 48px;
+    font-weight: 1000;
+    text-align: center;
+    color: #0b0a0a;
+}
+    
+.p1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration:dashed;
+    }
+.trait{
+  
+        border: none;
+        height: 2px;
+        background-color: #333;
+        width: 75%; /* Définit la longueur du trait */
+        margin: 20px auto; /* Centre le trait horizontalement */
+    
+}
+.right main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    width: 90%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    border-bottom: 5px solid #343a40;
+    padding-bottom: 20px;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.job, .degree, .project {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #30353c;
+    background-color: #3a89d8;
+    border-radius: 5px;
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background: #eaeaea;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress {
+    background: #0d4d91;
+    height: 20px;
+}
+.project{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.languages{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+ul li {
+    background: #03294f;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 200px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 15px;
+}
+.DM{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
